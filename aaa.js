@@ -1,0 +1,5 @@
+var password = ''
+ password=prompt('輸入密碼:','');
+if (password != null) {
+ location.href= password + ".html";
+ }
