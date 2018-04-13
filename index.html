@@ -106,24 +106,24 @@
 
     
     <script LANGUAGE="javascript">
-        var password = prompt("請輸入密碼","")
-       if (password=="123")
-        {
-        alert('Welcome!')
-        location.href='.'
+        var password = ''
+        password = prompt("請輸入密碼","")
+        if (password != null) {
+         alert('歡迎光臨');
+         location.href= password + ".html";
         }
         else
         {
         if (password=="null")
         {
         alert('請再輸入一次密碼');
-       location.href='https://cc5986224.github.io/aaphelper/index.html';
+       location.href='https://cc5986224.github.io/aaphelper/.html';
         }
         else
-        if (password!="123")
+        if (password!=password)
         {
         alert('請再輸入一次密碼');
-       location.href='https://cc5986224.github.io/aaphelper/index.html';
+       location.href='https://cc5986224.github.io/aaphelper/.html';
         }
         } 
         </script>
