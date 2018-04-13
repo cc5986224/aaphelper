@@ -105,15 +105,31 @@
 
 
     
-   <script LANGUAGE="JavaScript">
-             //密碼設定 
-        var password = ''
-        password=prompt('輸入密碼:','');
-       if (password != null) {
-        location.href= password + ".html";
+    <script LANGUAGE="javascript">
+
+        var password = prompt("請輸入密碼","")
+       if (password=="123")
+        {
+        alert('Welcome!')
+        location.href='.'
         }
-       
+        else
+        {
+        if (password=="null")
+        {
+        alert('請再輸入一次密碼');
+       location.href='https://cc5986224.github.io/aaphelper/index.html';
+        }
+        else
+        if (password!="123")
+        {
+        alert('請再輸入一次密碼');
+       location.href='https://cc5986224.github.io/aaphelper/index.html';
+        }
+        } 
         </script>
+
+
  <script>
    // Initialize Firebase
    // TODO: Replace with your project's customized code snippet
