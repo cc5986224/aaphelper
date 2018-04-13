@@ -103,23 +103,29 @@
 
     <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
 
-
-    
     <script LANGUAGE="javascript">
- 
 
-if(pwd=="123")
-{
-alert("Welcome to my homepage!");
-location.href=".";
-}
-else
-
-{ 
-alert("Denied !"); 
-}
-        </script>
-
+            var password = prompt("請輸入密碼","")
+           if (password=="123")
+            {
+            alert('Welcome!')
+            location.href='cc5986224.github.io/aaphelper/index.html'
+            }
+            else
+            {
+            if (password=="null")
+            {
+            alert('請再輸入一次密碼');
+           location.href='cc5986224.github.io/aaphelper';
+            }
+            else
+            if (password!="123")
+            {
+            alert('請再輸入一次密碼');
+           location.href='cc5986224.github.io/aaphelper';
+            }
+            } 
+            </script> 
 
  <script>
    // Initialize Firebase
