@@ -12,15 +12,13 @@
     font-family:"微軟正黑體", "黑體-繁", sans-serif;
     font-size: 100%;
     /* 背景 */
-    background-color: rgb(28, 185, 238);
+    background-color: rgb(59, 75, 80);
  
   }
   marquee{
     font-family:"微軟正黑體", "黑體-繁", sans-serif;
     font-size: 200%;
     color:Tomato
- 
-
    
   }
 
@@ -65,6 +63,7 @@
   
   /* 設定lights 區塊裡的清單項目樣式 */
   #lights ul li {
+    
     /*  上下留白10像素，左右不留白。 */
     margin:10px 0;
     /*  1像素點狀灰色底線  */
@@ -112,22 +111,22 @@ button{
     <h1>遙控家電</h1>
     <marquee>遙控家電</marquee>
     <div id="lights">
-        <li><a href="sw?id=1"> <span class="sw off">OFF</span>電燈 </a></li>
+        <li><a href="sw?id=1"> <span class="sw off">OFF電燈</span> </a></li>
         <input type="text" id="input" name="" value="">
         <button type="button" id="btn">送出</button>
         <ul  id="ul1"></ul>
 
-        <li><a href="sw?id=2"> <span class="sw off">OFF</span>電風扇</a></li>
+        <li><a href="sw?id=2"> <span class="sw off">OFF電風扇</span></a></li>
         <input type="text" id="input2" name="" value="">
         <button type="button" id="btn2">送出</button>
         <ul   id="ul2"></ul>
 
-        <li><a href="sw?id=3"> <span class="sw off">OFF</span>電視</a></li>
+        <li><a href="sw?id=3"> <span class="sw off">OFF電視</span></a></li>
         <input type="text" id="input3" name="" value="">
         <button type="button" id="btn3">送出</button>
         <ul   id="ul3"></ul>
         
-        <li><a href="sw?id=4"> <span class="sw off">OFF</span>電暖氣</a></li>
+        <li><a href="sw?id=4"> <span class="sw off">OFF電暖氣</span></a></li>
         <input type="text" id="input4" name="" value="">
         <button type="button" id="btn4">送出</button>
         <ul   id="ul4"></ul>
@@ -139,6 +138,9 @@ button{
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 
     <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
+
+
+    
 
  <script>
    // Initialize Firebase
